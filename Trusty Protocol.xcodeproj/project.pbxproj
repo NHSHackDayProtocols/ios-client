@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232BD4541750D8C400BECD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232BD4531750D8C400BECD9A /* UIKit.framework */; };
+		232BD4561750D8C400BECD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232BD4551750D8C400BECD9A /* Foundation.framework */; };
+		232BD4581750D8C400BECD9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232BD4571750D8C400BECD9A /* CoreGraphics.framework */; };
+		232BD45E1750D8C400BECD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232BD45C1750D8C400BECD9A /* InfoPlist.strings */; };
+		232BD4601750D8C400BECD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232BD45F1750D8C400BECD9A /* main.m */; };
+		232BD4641750D8C400BECD9A /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232BD4631750D8C400BECD9A /* TPAppDelegate.m */; };
+		232BD4661750D8C400BECD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 232BD4651750D8C400BECD9A /* Default.png */; };
+		232BD4681750D8C400BECD9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232BD4671750D8C400BECD9A /* Default@2x.png */; };
+		232BD46A1750D8C400BECD9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232BD4691750D8C400BECD9A /* Default-568h@2x.png */; };
+		232BD46D1750D8C400BECD9A /* TPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232BD46C1750D8C400BECD9A /* TPViewController.m */; };
+		232BD4701750D8C400BECD9A /* TPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232BD46E1750D8C400BECD9A /* TPViewController_iPhone.xib */; };
+		232BD4731750D8C400BECD9A /* TPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232BD4711750D8C400BECD9A /* TPViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		232BD4501750D8C400BECD9A /* Trusty Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trusty Protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232BD4531750D8C400BECD9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		232BD4551750D8C400BECD9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232BD4571750D8C400BECD9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		232BD45B1750D8C400BECD9A /* Trusty Protocol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trusty Protocol-Info.plist"; sourceTree = "<group>"; };
+		232BD45D1750D8C400BECD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232BD45F1750D8C400BECD9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		232BD4611750D8C400BECD9A /* Trusty Protocol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trusty Protocol-Prefix.pch"; sourceTree = "<group>"; };
+		232BD4621750D8C400BECD9A /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		232BD4631750D8C400BECD9A /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		232BD4651750D8C400BECD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		232BD4671750D8C400BECD9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		232BD4691750D8C400BECD9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		232BD46B1750D8C400BECD9A /* TPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPViewController.h; sourceTree = "<group>"; };
+		232BD46C1750D8C400BECD9A /* TPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPViewController.m; sourceTree = "<group>"; };
+		232BD46F1750D8C400BECD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TPViewController_iPhone.xib; sourceTree = "<group>"; };
+		232BD4721750D8C400BECD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TPViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232BD44D1750D8C400BECD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BD4541750D8C400BECD9A /* UIKit.framework in Frameworks */,
+				232BD4561750D8C400BECD9A /* Foundation.framework in Frameworks */,
+				232BD4581750D8C400BECD9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232BD4471750D8C400BECD9A = {
+			isa = PBXGroup;
+			children = (
+				232BD4591750D8C400BECD9A /* Trusty Protocol */,
+				232BD4521750D8C400BECD9A /* Frameworks */,
+				232BD4511750D8C400BECD9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232BD4511750D8C400BECD9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232BD4501750D8C400BECD9A /* Trusty Protocol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232BD4521750D8C400BECD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232BD4531750D8C400BECD9A /* UIKit.framework */,
+				232BD4551750D8C400BECD9A /* Foundation.framework */,
+				232BD4571750D8C400BECD9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232BD4591750D8C400BECD9A /* Trusty Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				232BD4621750D8C400BECD9A /* TPAppDelegate.h */,
+				232BD4631750D8C400BECD9A /* TPAppDelegate.m */,
+				232BD46B1750D8C400BECD9A /* TPViewController.h */,
+				232BD46C1750D8C400BECD9A /* TPViewController.m */,
+				232BD46E1750D8C400BECD9A /* TPViewController_iPhone.xib */,
+				232BD4711750D8C400BECD9A /* TPViewController_iPad.xib */,
+				232BD45A1750D8C400BECD9A /* Supporting Files */,
+			);
+			path = "Trusty Protocol";
+			sourceTree = "<group>";
+		};
+		232BD45A1750D8C400BECD9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232BD45B1750D8C400BECD9A /* Trusty Protocol-Info.plist */,
+				232BD45C1750D8C400BECD9A /* InfoPlist.strings */,
+				232BD45F1750D8C400BECD9A /* main.m */,
+				232BD4611750D8C400BECD9A /* Trusty Protocol-Prefix.pch */,
+				232BD4651750D8C400BECD9A /* Default.png */,
+				232BD4671750D8C400BECD9A /* Default@2x.png */,
+				232BD4691750D8C400BECD9A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232BD44F1750D8C400BECD9A /* Trusty Protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232BD4761750D8C400BECD9A /* Build configuration list for PBXNativeTarget "Trusty Protocol" */;
+			buildPhases = (
+				232BD44C1750D8C400BECD9A /* Sources */,
+				232BD44D1750D8C400BECD9A /* Frameworks */,
+				232BD44E1750D8C400BECD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trusty Protocol";
+			productName = "Trusty Protocol";
+			productReference = 232BD4501750D8C400BECD9A /* Trusty Protocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232BD4481750D8C400BECD9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TrustyProtocol;
+			};
+			buildConfigurationList = 232BD44B1750D8C400BECD9A /* Build configuration list for PBXProject "Trusty Protocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 232BD4471750D8C400BECD9A;
+			productRefGroup = 232BD4511750D8C400BECD9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232BD44F1750D8C400BECD9A /* Trusty Protocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232BD44E1750D8C400BECD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BD45E1750D8C400BECD9A /* InfoPlist.strings in Resources */,
+				232BD4661750D8C400BECD9A /* Default.png in Resources */,
+				232BD4681750D8C400BECD9A /* Default@2x.png in Resources */,
+				232BD46A1750D8C400BECD9A /* Default-568h@2x.png in Resources */,
+				232BD4701750D8C400BECD9A /* TPViewController_iPhone.xib in Resources */,
+				232BD4731750D8C400BECD9A /* TPViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232BD44C1750D8C400BECD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BD4601750D8C400BECD9A /* main.m in Sources */,
+				232BD4641750D8C400BECD9A /* TPAppDelegate.m in Sources */,
+				232BD46D1750D8C400BECD9A /* TPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		232BD45C1750D8C400BECD9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232BD45D1750D8C400BECD9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		232BD46E1750D8C400BECD9A /* TPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232BD46F1750D8C400BECD9A /* en */,
+			);
+			name = TPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		232BD4711750D8C400BECD9A /* TPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232BD4721750D8C400BECD9A /* en */,
+			);
+			name = TPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232BD4741750D8C400BECD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		232BD4751750D8C400BECD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232BD4771750D8C400BECD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trusty Protocol/Trusty Protocol-Prefix.pch";
+				INFOPLIST_FILE = "Trusty Protocol/Trusty Protocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		232BD4781750D8C400BECD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trusty Protocol/Trusty Protocol-Prefix.pch";
+				INFOPLIST_FILE = "Trusty Protocol/Trusty Protocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232BD44B1750D8C400BECD9A /* Build configuration list for PBXProject "Trusty Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232BD4741750D8C400BECD9A /* Debug */,
+				232BD4751750D8C400BECD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232BD4761750D8C400BECD9A /* Build configuration list for PBXNativeTarget "Trusty Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232BD4771750D8C400BECD9A /* Debug */,
+				232BD4781750D8C400BECD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232BD4481750D8C400BECD9A /* Project object */;
+}
